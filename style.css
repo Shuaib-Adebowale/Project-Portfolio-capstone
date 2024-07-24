@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    background-image: url(./image/white-crumpled-paper-texture-background-design-space-white-tone.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 320px;
+    text-align: center;
+    padding: 90px 0 0;
+}
+
+.background h1{
+    margin: 30px 0;
+    font-size: 30px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+}
+.background h2{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 600;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0 ;
+}
+.img-1{
+    margin: 0 35px;
+}
+.image-1{
+    width: 150px;
+    height: 180px;
+    border-radius: 15px;
+}
+h3{
+    font-family: "Edu AU VIC WA NT Hand";
+    font-weight: 700;
+}
+h4{
+    font-family: "Edu AU VIC WA NT Hand";
+    font-weight: 700;
+}
+.text-skills{
+    margin: 100px 0;
+    text-align: center;
+}
+.text-skills h5{
+    margin: 50px 0 0;
+    font-size: 30px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+}
+.right-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 340px;
+}
+.image-2{
+    width: 200px;
+    height: 200px;
+    margin: 0 10px 0 0;
+    border-radius: 5px;
+}
+.right-text p{
+    font-family: "Edu AU VIC WA NT Hand";
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.5;
+}
+.link-project{
+    text-align: center;
+    margin: 70px 0 ;
+}
+.link-project h2{
+    margin: 25px 0;
+}
+.project-1{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 240px 200px;
+    gap: 85px;
+}
+.link-1{
+    text-align: center;
+    border-radius: 15px;
+    margin: 10px ;
+    height: 220px;
+    width: 270px;
+    padding: 20px 0 0;
+}
+.image-3{
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+}
+.a-1{
+    font-size: 14px;
+    text-decoration: none;
+    color: #07070e;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 600;
+}
+.a-1:hover{
+    color: #6565ec;
+}
+.contact{
+    text-align: center;
+    margin: 0 50px 50px;
+}
+.contact h3{
+    margin: 50px 0 15px;
+    font-size: 20px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 600;
+}
+.contact h5{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 10px 0;
+    font-family: "Edu AU VIC WA NT Hand";
+    font-weight: 500;
+}
+.contact p{
+    margin: 5px 0;
+    font-size: 15px;
+    font-family: "Edu AU VIC WA NT Hand";
+    font-weight: 500;
+}
+button{
+    background-color: #6565ec;
+    width: 100px;
+    height: 28px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+   box-shadow: rgba(66, 106, 225, 0.2);
+}
+button > a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 600;
+    font-size: 12px;
+}
+button a:hover{
+    color: #07070e;
+}
+footer{
+    text-align: center;
+    padding: 20px 0 0;
+    background-color: #6565ec;
+    height: 150px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0;
+}
+li{
+    margin: 0 20px;
+    list-style: none;
+}
+li a{
+    color: #ffff;
+    text-decoration: none;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+li a:hover{
+    color: #07070e;
+}
+footer p{
+    color: #fff;
+}
+@media (max-width:480px) {
+    .background{
+        height: 250px;
+    }
+    .background h1{
+        margin: 20px 0;
+        font-size: 20px;
+    }
+    .background h2{
+        font-size: 17px;
+    }
+    .container{
+        display: block;
+        text-align: center;
+    }
+    .text-education{
+        margin: 10px 0;
+    }
+    .text-skills{
+        margin: 0;
+    }
+    .text-skills h5{
+        margin:  0;
+        font-size: 18px;
+    }
+    .right-text{
+        display: block;
+        align-items: center;
+        margin: 20px 0;
+        width: 100%;
+    }
+    .image-2{
+        width: 90%;
+        height: 90%;
+        height: 180px;
+        margin: 20px 0;
+        border-radius: 5px;
+    }
+    .right-text p{
+        font-weight: 500;
+        text-align: center;
+        line-height: 1.5;
+        font-size: 16px;
+        margin: 0 20px;
+    }
+    .project-1{
+        display: block;
+        margin: 0 55px;
+    }
+    
+}
